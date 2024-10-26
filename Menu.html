@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ind">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kopi Keramat - Menu</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FFF0D1;
+            color: black;
+        }
+
+        nav {
+            background-color: #795757;
+            padding: 10px;
+            text-align:left;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: blanchedalmond;
+            margin: 0 20px;
+            font-size: rem;
+        }
+
+        nav a:hover {
+            color: #3B3030;
+        }
+
+        .menu-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .menu-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap-reverse;
+            text-wrap: center;
+            height: 100%;
+            width: 100%;
+        
+
+        }
+
+        .menu-item {
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 25%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .menu-item h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .cta-button {
+            background-color: #FF6F61;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .cta-button:hover {
+            background-color: #E64A19;
+        }
+
+        footer {
+            background-color: #4A3F35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>>
+        <a href="Home.html">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="C:\xampp\htdocs\PWEB(UTS)\Coffe Dark Skeleton.jpeg" alt="Coffe Dark Skeleton" height="200" width="250">
+                <h3>Coffe Dark Skeleton</h3>
+                <p>Price: IDR 24,000</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\xampp\htdocs\PWEB(UTS)\Coffe Black Milk Dukun.jpeg" alt="Kopi Susu"height="200" width="250">
+                <h3>Coffe Black Milk Dukun</h3>
+                <p>Price: IDR 35,000</p>
+            </div>
+
+            <div class="menu-item">
+                <img src="C:\xampp\htdocs\PWEB(UTS)\Coffe Americano Genderuwo.jpeg" alt="Coffe Americano Genderuwo" height="200" width="250">
+                <h3>Coffe Americano Genderuwo</h3>
+                <p>Price: IDR 30,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\xampp\htdocs\PWEB(UTS)\Cappucino Poci.jpg" alt="Coffe Cappuccino Poci" height="200" width="250">
+              <h3>Coffe Cappuccino Poci</h3>
+              <p>Price: IDR 23,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\xampp\htdocs\PWEB(UTS)\Caramel Macchiato.jpg" alt="Coffe Caramel Macchiato Tuyul" height="200" width="250">
+              <h3>Coffe Caramel Macchiato Tuyul</h3>
+              <p>Price: IDR 23,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\xampp\htdocs\PWEB(UTS)\Caffe Latte Kunti.jpg" alt="Caffè Latte Kunti" height="200" width="250">
+              <h3>Caffè Latte Kunti</h3>
+              <p>Price: IDR 25,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\xampp\htdocs\PWEB(UTS)\Flat White Leak.jpg" alt="Flat White Leak" height="200" width="250">
+              <h3>Flat White Leak</h3>
+              <p>Price: IDR 30,000</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="C:\xampp\htdocs\PWEB(UTS)\sesajen.jpeg" alt="Coffe Sesajen" height="200" width="250">
+              <h3>Coffe Sesajen</h3>
+              <p>Price: IDR 45,000</p>
+            </div>
+            <!-- Add more menu items similarly -->
+        </div>
+
+        <div class="order-section">
+            <h2>Order Online</h2>
+            <p>Now available on GoFood and GrabFood!</p>
+            <br>
+            <a href="https://gofood.co.id" class="cta-button">Order on GoFood</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kopi Keramat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
